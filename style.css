@@ -87,3 +87,47 @@ body {
 }
 
 /* statistics section end */
+
+/* my plan section started */
+
+.plan {
+  height: 800px;
+  margin: 150px 230px;
+}
+
+.my-plan-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.my-plan-heading h2 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.my-plan-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.single-plan-content h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.single-plan-content h5 {
+  color: #737272;
+  font-size: 25px;
+  line-height: .2;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* my plan section end */
+
+
+/* contact section started */
+/* contact section end */
