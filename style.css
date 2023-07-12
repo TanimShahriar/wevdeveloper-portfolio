@@ -91,7 +91,7 @@ body {
 /* my plan section started */
 
 .plan {
-  height: 800px;
+  height: 400px;
   margin: 150px 230px;
 }
 
@@ -130,4 +130,87 @@ body {
 
 
 /* contact section started */
+.contact {
+  background-image: url('img/watch.png');
+  border-radius: 8px;
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  margin: 150px 230px;
+  padding: 50px 60px 0px 60px;
+  border-radius: 8px;
+}
+
+.contact-section {
+  padding-left: 30px;
+}
+
+.contact-section h2 {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: .5;
+}
+
+.contact-btn {
+  border-radius: 5px;
+  background: #FFF;
+  color: #005FAC;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  width: 110px;
+  text-transform: capitalize;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: rgb(161, 156, 156);
+}
+
 /* contact section end */
+
+
+/* footer section started */
+.footer {
+  height: 700px;
+  background-color: #151414;
+}
+
+.footer-content,
+.footer-form {
+  padding: 50px 230px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+}
+
+.footer-content h2 {
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-content p {
+  color: #FFF;
+  font-size: 16px;
+  ;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  gap: 19px;
+  margin-top: 40px;
+}
+
+
+/* footer section end */
