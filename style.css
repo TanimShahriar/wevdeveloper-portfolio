@@ -187,7 +187,7 @@ body {
 
 .footer-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: #FFF;
 }
 
@@ -200,9 +200,9 @@ body {
 .footer-content p {
   color: #FFF;
   font-size: 16px;
-  ;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 10px;
+  opacity: .7;
 }
 
 .social-icons {
@@ -212,5 +212,33 @@ body {
   margin-top: 40px;
 }
 
+.footer-form h3 {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.input-tag {
+  background: #151414;
+  width: 300px;
+  padding: 15px 20px;
+  color: #F3F3F3;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+}
+
+.footer-btn {
+  border: 1px solid red;
+  margin-top: 25px;
+  width: 90px;
+  padding: 15px 30px;
+  border-radius: 7px;
+  background-color: #005FAC;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 /* footer section end */
